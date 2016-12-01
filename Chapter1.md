@@ -8,9 +8,13 @@ Author: Alan
 ## Models of a neuron
 
 **1.1** An example of the logistic function is defined by
+
 $$\varphi(v) = {1\over 1+exp(-av)}$$
-whose limiting values are  $0$ and $1$. Show that the derivative of $\varphi(v)$ with respect to $v$ is given by
+
+whose limiting values are  $0$ and $1$. Show that the derivative of $$\varphi(v)$$ with respect to $$v$$ is given by
+
 $${d\varphi\over dv} = {a\varphi(v)[1-\varphi(v)]}$$
+
 What is the value of this derivative at the origin?
 
 **Proof.**
